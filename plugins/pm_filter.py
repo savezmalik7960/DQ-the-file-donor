@@ -1348,7 +1348,7 @@ async def advantage_spell_chok(client, msg):
         await asyncio.sleep(8)
         await k.delete()
         return
-    SPELL_CHECK[msg.id] = movielist
+    SPELL_CHECK[msg.id] = g_s
     btn = [[
         InlineKeyboardButton(
             text=movie.strip(),
